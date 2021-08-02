@@ -1,0 +1,7 @@
+{
+  "name": "tortee",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
