@@ -1,0 +1,80 @@
+ion-content.background{
+  --ion-background-color: #368e9a;
+
+}
+
+
+.contents{
+  margin-top: 10%;
+}
+
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+
+.title{
+  width: 60%;
+  margin:auto;
+}
+
+.item-avatar  {
+  width:100% !important;
+  height : 100% !important;
+  max-width: 50% !important;  //any size
+  max-height: 50% !important; //any size
+  margin: auto;
+  }
+
+
+.slogan{
+    font-family: Verdana;
+    font-size: 100%;
+    // font-weight: bold;
+
+
+
+}
+
+
+.custom-button-text{
+  color: #22555c;
+  font-size: 125% !important;
+  text-transform: capitalize;
+  font-family:'Trebuchet MS';
+  font-weight: bold;
+}
+
+
+.signin-button{
+  width: 80%;
+  // height: 20px;
+
+}
+
+
+.login-button{
+  width: 80%;
+  // margin-bottom: px;
+
+}
+
+.extra-text{
+  color: #ffffff;
+  font-family: 'Trebuchet MS';
+  font-size: medium;
+  // margin-top: 500px !important;
+
+}
+
+
+.google-button{
+  margin-right: 10px;
+  font-size: 100%;
+}

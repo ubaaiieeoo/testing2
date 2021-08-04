@@ -1,10 +1,77 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
 
+<ion-content  class="background">
+  <div class="contents">
 
-<ion-content>
+    <div class="imgbox">
+      <img class="center-fit" src="./assets/logo3.png" alt="">
+    </div>
+
+  <ion-grid >
+    <div class="ion-text-center">
+      <!-- SLOGAN -->
+    <ion-row>
+      <ion-col>
+        <ion-text class="slogan" color="light"><!-- -->
+          "When One Teaches, Two Learn"
+        </ion-text>
+      </ion-col>
+    </ion-row>
+      <!-- INPUT EMAIL AND PASSWORD -->
+    <ion-row class="signin-margin">
+      <ion-col class="ion-text-center">
+        <ion-item>
+          <ion-label position="floating"  class="extra-text" >Email</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating"  class="extra-text" >Password</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+          <!-- LOGIN BUTTONS -->
+          <ion-col class="ion-text-center">
+        <ion-button class="login-button" shape="round" color="light">
+          <ion-text class="custom-button-text">Login</ion-text>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+          <!-- RESET PASSWORD HERE -->
+          <ion-row>
+            <ion-col >
+               <!-- RESET PASSWORD BUTTONS -->
+              <ion-button color="light" >
+                <ion-text class="custom-button-text">Reset Password</ion-text>
+                </ion-button>
+               <!-- REGISTER BUTTONS -->
+              <ion-button color="light">
+                <ion-text class="custom-button-text">Register</ion-text>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-text class="slogan" color="light"><!-- -->
+                - Or Login With -
+              </ion-text>
+            </ion-col>
+          </ion-row>
+    <ion-row>
+      <ion-col class="sync-button">
+         <!-- GOOGLE BUTTONS -->
+        <ion-button color="light" class="google-button">
+          <ion-icon name="logo-google"></ion-icon>
+          </ion-button>
+         <!-- FB BUTTONS -->
+        <ion-button color="light" class="fb-button">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-grid>
+</div>
 
 </ion-content>
+
